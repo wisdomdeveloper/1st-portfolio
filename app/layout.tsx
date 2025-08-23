@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from 'next'
+import { ThemeProvider } from 'next-themes'
 import { Geist, Geist_Mono } from 'next/font/google'
+import { Footer } from './footer'
 import './globals.css'
 import { Header } from './header'
-import { Footer } from './footer'
-import { ThemeProvider } from 'next-themes'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -14,14 +14,15 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://nim-fawn.vercel.app/'),
   alternates: {
-    canonical: '/'
+    canonical: '/',
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'Wisdom Developer',
+    template: '%s | Wisdom Developer',
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
-};
+  description:
+    'Focused on creating intuitive and performant web experiences. Bridging the gap between design and development.',
+}
 
 const geist = Geist({
   variable: '--font-geist',
