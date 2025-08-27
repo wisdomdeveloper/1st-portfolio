@@ -1,5 +1,7 @@
 import { StaticImageData } from 'next/image'
 import baracode from '../public/baracode.png'
+import clientvault from '../public/clientvault.png'
+import megaani from '../public/megaani.png'
 import realEstate from '../public/real-estate.png'
 
 type Project = {
@@ -40,6 +42,22 @@ export const PROJECTS: Project[] = [
     link: 'https://real-estate-topaz-gamma.vercel.app/',
     picture: baracode,
     id: 'project2',
+  },
+  {
+    name: 'megaani Edutech',
+    description:
+      'An e-learning platform that offers a wide range of courses and resources for students and educators.',
+    link: 'https://megaani-six.vercel.app',
+    picture: megaani,
+    id: 'project3',
+  },
+  {
+    name: 'Client Vault',
+    description:
+      'A secure and user-friendly web application that allows users to store and manage their sensitive information, such as passwords, credit card details, and personal notes, all in one place.',
+    link: 'https://client-vault-rho.vercel.app',
+    picture: clientvault,
+    id: 'project4',
   },
 ]
 
