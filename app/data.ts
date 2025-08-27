@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     id: 'project3',
   },
   {
-    name: 'Client Vault',
+    name: 'Client Vault (work in progress)',
     description:
       'A secure and user-friendly web application that allows users to store and manage their sensitive information, such as passwords, credit card details, and personal notes, all in one place.',
     link: 'https://client-vault-rho.vercel.app',
